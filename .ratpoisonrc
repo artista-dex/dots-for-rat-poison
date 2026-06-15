@@ -1,0 +1,53 @@
+exec setxkbmap es
+exec feh --bg-scale ~/Wallpapers/phyloso.jpg
+exec /usr/local/bin/rpws init 9 -k
+exec picom 
+
+startupmessage off
+
+set winname title
+set winfmt %n %t
+set bargravity center
+set barpadding 3 3
+set border 4
+
+set font "Hack Nerd Font Mono:size 12"
+
+set bgcolor #2d3539
+set fgcolor #CDD1D2
+
+escape Super_L
+
+bind Return exec alacritty
+bind y dmenu_run
+bind f colon
+bind b exec firefox
+
+bind t time
+
+bind q delete
+bind Q only
+bind r remove
+
+bind z split
+bind x hsplit
+
+bind <DOWN> focusdown
+bind <UP> focusup
+bind <LEFT> focusleft
+bind <RIGHT> focusright
+
+bind h focusleft
+bind j focusdown
+bind k focusup
+bind l focusright
+
+bind 1 exec rpws 1
+bind 2 exec rpws 2
+bind 3 exec rpws 3
+bind 4 exec rpws 4
+bind 5 exec rpws 5
+bind 6 exec rpws 6
+bind 7 exec rpws 7
+bind 8 exec rpws 8
+bind 9 exec rpws 9

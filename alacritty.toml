@@ -1,0 +1,49 @@
+[terminal.shell]
+program = "/usr/local/bin/bash"
+[colors.primary]
+background = "#262524"
+foreground = "#ded9d1"
+
+[colors.cursor]
+text = "#262524"
+cursor = "#ded9d1"
+
+[colors.normal]
+black   = "#262524"
+red     = "#91342a"
+green   = "#6a986b"
+yellow  = "#a7a120"
+blue    = "#7a8ea8"
+magenta = "#aa6686"
+cyan    = "#8f8d71"
+white   = "#a7a495"
+
+[colors.bright]
+black   = "#3e433b"
+red     = "#c6625a"
+green   = "#95c561"
+yellow  = "#f1a215"
+blue    = "#9aa9c7"
+magenta = "#c6aca7"
+cyan    = "#cec7b7"
+white   = "#f2ddd1"
+[font]
+size = 8.0
+
+[font.bold]
+family = "Hack Nerd Font"
+style = "Bold"
+
+[font.italic]
+family = "Hack Nerd Font"
+style = "Italic"
+
+[font.normal]
+family = "Hack Nerd Font"
+style = "Regular"
+
+[font.offset]
+x = 0
+y = 0
+
+[terminal]
