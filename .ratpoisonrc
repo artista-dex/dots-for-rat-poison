@@ -19,8 +19,8 @@ set fgcolor #CDD1D2
 escape Super_L
 
 bind Return exec alacritty
-bind y dmenu_run
-bind f colon
+bind f exec dmenu_run
+bind y colon
 bind b exec firefox
 
 bind t time
